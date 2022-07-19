@@ -8,7 +8,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @Configuration
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
-
     @Value("${ENABLE_SECURITY:true}")
     private boolean isSecurityEnable;
 

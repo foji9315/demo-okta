@@ -9,11 +9,11 @@ import static java.util.Objects.isNull;
 
 @RestController
 @RequestMapping("/api/v1/")
-public class BookController {
+public class ApiController {
 
     @GetMapping("/greetings")
     public String greeting() {
-        return "Hello";
+        return "Response coming from demo API";
     }
 
     @GetMapping("/whoami")
